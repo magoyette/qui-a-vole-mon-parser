@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(fonts/Alegreya-Regular.woff2) format('woff2'),
+    url(fonts/Alegreya-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url(fonts/Alegreya-Bold.woff2) format('woff2'),
+    url(fonts/Alegreya-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: Alegreya;
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url(fonts/Alegreya-Italic.woff2) format('woff2'),
+    url(fonts/Alegreya-Italic.woff) format('woff');
+}
+
+#backdrop {
+  background-image: linear-gradient(-12deg, #6D5E5E 0%, #514242 10%, #45473C 100%);
+}
+
+article h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+article h2 {
+  font-size: 1.5rem;
+}
+
+article p, article ul {
+  font-size: 1.5rem;
+}
+
+#page {
+  line-height: 2rem;
+}
+
+#page footer {
+  font-size: 1.25rem;
+}
+
+#page header {
+  font-size: 1.25rem;
+}
+
+#page a {
+  color: #6A2501;
+  text-decoration: none;
+}
+
+#page a:hover, #page a:active {
+  color: #6A2501;
+}

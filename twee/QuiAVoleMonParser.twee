@@ -1,0 +1,104 @@
+:: StoryTitle
+Qui a volé mon parser?
+
+:: StoryData
+{
+  "ifid": "8117BF3F-5859-4BBB-BF70-D02CDF5387EA",
+  "format": "Chapbook"
+}
+
+:: Start
+config.style.page.font: "Alegreya/serif"
+config.style.page.header.font: "Alegreya/serif"
+config.style.page.header.link.font: "Alegreya/serif"
+config.style.page.footer.font: "Alegreya/serif"
+config.style.page.footer.link.font: "Alegreya/serif"
+config.footer.left: "[[À propos->À propos]]"
+config.footer.right: "{restart link, label: 'Recommencer l’histoire'}"
+--
+
+[align center]
+
+# Qui a volé mon parser?
+
+## par Marc-André Goyette
+
+<br/>
+
+[[Commencer l'histoire->Début]]
+
+:: Début
+
+*Je marche dans cette ville immonde, ramassis d'auteurs minables et d'histoires si ennuyantes qu'elles peuvent en être fatales.*
+
+*Une intense colère m'habite, car un être infâme a osé [[voler mon parser->Vol]]!*
+
+:: Vol
+
+*Mon précieux parser, objet de toutes mes passions. Entre deux enquêtes sordides, je m'évade dans des contrées lointaines, que j'explore grâce à la toute-puissance des verbes.*
+
+*J'en suis maintenant réduit à [[survivre->Survivre]] avec des histoires hypertextuelles. La calamité s'acharne sur moi.*
+
+:: Survivre
+
+Le détective privé se promène dans la charmante bourgade. Il marche dans la rue principale, éclairée par les [[lumières des cafés->Cafés]].
+
+*C'est quoi ce texte-là! Ce n'est pas une bourgade, c'est un sinistre coupe-gorge, une citée de la terreur...*
+
+:: Cafés
+
+Le détective privé voit son épouse dans un café.
+
+*Ce n'est pas mon épouse, c'est une de mes conquêtes, qui souhaite maintenant m'assassiner parce que j'ai mis fin à ses activités illégales.*
+
+- [[Entrer dans le café->Café]]
+- [[Marcher sur le quai->Quai]]
+
+*C'est quoi ces choix bidons? Je veux interroger Jack, le collectionneur de parser. Quelqu'un a peut-être tenté de lui vendre mon parser. Il est juste là, à 5 mètres de moi. Si je pointe mon revolver sur lui, il va cracher le morceau.*
+
+`>menacer Jack`
+
+*Colère indicible, d'une intensité inexprimable, devant l'absence de réponse.*
+
+:: Quai
+
+Le détective s'approche du quai. En regardant les vagues sous le ciel étoilé, il comprend enfin quelle est sa place dans l'univers et abandonne sa quête inutile. Il n'a qu'à utiliser son parser de rechange.
+
+**Fin**
+
+*Non! Il n'y a qu'un seul parser pour moi. Je vais détruire ce monde infâme et ces choix stupides!*
+
+`>détruire l'univers`
+
+*Rage éternelle.*
+
+:: Café
+
+L'épouse du détective remarque l'arrivée de son mari et l'invite à venir à sa table.
+
+- [[Où est mon parser? Dis-le moi maintenant!->Parser]]
+- [[Sortir du café en courant et retrouver Jack->Jack]]
+
+*Enfin, des choix sensés. Ce n'est pas trop tôt.*
+
+:: Parser
+
+Chéri, tu as oublié ton parser chez mon père. Il a appelé aujourd'hui pour se plaindre que le parser fait des interférences avec la télé.
+
+**Fin**
+
+*Après une âpre négociation dans le bar enfumé, j'ai obtenu l'adresse du scélérat qui a dérobé mon parser. Demain, j'irai lui rendre visite pour reprendre mon bien.*
+
+:: Jack
+
+Tu perds ton parser à chaque semaine, Joe, ça devient lassant. Voici une autre copie de ton Inform 8.
+
+**Fin**
+
+*Après avoir menacé Jack, échappé à des sbires musclés et s'être introduit dans l'entrepôt des parsers de contrebande, notre ténébreux justicier a retrouvé son bien.*
+
+:: À propos
+
+Cette fiction interactive a été écrite pour la [4e édition de la Partim 500](https://itch.io/jam/fr-partim-500-an-2019). Chaque aventure textuelle devait avoir un maximum de 500 mots et le thème était le *déchaînement*.
+
+[Chapbook](https://klembot.github.io/chapbook/), un format d'histoire [Twine](https://twinery.org/), a été utilisé pour créer cette fiction.
